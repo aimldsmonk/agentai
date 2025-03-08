@@ -22,5 +22,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push --force https://PraveenCMR:$HF_TOKEN@huggingface.co/spaces/PraveenCMR/agenticai main
-
-        
